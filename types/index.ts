@@ -49,3 +49,28 @@ export interface Category {
 	icon: React.ComponentType<{ className?: string }>
 	subcategories: Subcategory[]
 }
+
+export interface ReadingTime {
+	text: string
+	minutes: number
+	time: number
+	words: number
+}
+
+export interface Post {
+	slug: string
+	title: string
+	image: string
+	description: string
+	date: number
+	content: string
+	readingTime: ReadingTime
+	authors: string[]
+}
+
+export interface Author {
+	title: string
+	description: string
+	avatar: string
+	twitter: string
+}

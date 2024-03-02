@@ -19,6 +19,7 @@
 		],
 		"paths": {
 			"@/*": ["./*"],
+			"contentlayer/generated": ["./.contentlayer/generated"],
 		},
 	},
 	"include": [
@@ -27,6 +28,7 @@
 		"**/*.tsx",
 		".next/types/**/*.ts",
 		"tailwind.config.js",
+		"next.config.js",
 	],
 	"exclude": ["node_modules"],
 }
