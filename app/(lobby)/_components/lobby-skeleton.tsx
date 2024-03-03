@@ -8,7 +8,7 @@ import { Shell } from '@/components/shells/shell'
 import { ProductCardSkeleton } from '@/components/skeletons/product-card-skeleton'
 import { StoreCardSkeleton } from '@/components/skeletons/store-card-skeleton'
 
-import { CategoryCard } from './category-card'
+// import { CategoryCard } from './category-card'
 
 export function LobbySkeleton() {
 	return (

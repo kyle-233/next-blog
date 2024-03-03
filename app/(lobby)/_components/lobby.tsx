@@ -13,7 +13,7 @@ import { Icons } from '@/components/icons'
 import { ContentSection } from '@/components/shells/content-section'
 import { Shell } from '@/components/shells/shell'
 
-import { CategoryCard } from './category-card'
+// import { CategoryCard } from './category-card'
 
 interface LobbyProps {
 	// productsPromise: ReturnType<typeof getFeaturedProducts>

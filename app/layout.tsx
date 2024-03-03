@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from 'next'
+import type { Metadata } from 'next'
 import { ThemeProvider } from '@/components/providers'
 import { fontHeading, fontMono, fontSans } from '@/lib/fonts'
 import { absoluteUrl, cn } from '@/lib/utils'
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
 	manifest: absoluteUrl('/site.webmanifest'),
 }
 
-export const viewport: Viewport = {
+export const viewport = {
 	colorScheme: 'dark light',
 	themeColor: [
 		{ media: '(prefers-color-scheme: light)', color: 'white' },
